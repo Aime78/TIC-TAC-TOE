@@ -1,0 +1,6 @@
+
+
+/**
+ * Start game popup control
+ */
+

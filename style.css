@@ -1,0 +1,78 @@
+/*
+COLOR PALETTE
+https://colours.neilorangepeel.com/
+rgb(65,105,225) - ROYALBLUE - FOR THE HEADER
+rgb(245,245,245) - WHITESMOKE - FOR MAIN SECTION OF THE PAGE
+rgb(65,105,225) - ROYALBLUE - FOR THE FOOTER
+rgb(255,250,250) - SNOW - FOR THE GAMEBOARD
+rgb(211,211,211) -LIGHTGRAY - FOR POPUP MENU
+
+
+FONTS PALETTE
+font-family: 'Charis SIL', serif; - FOR THE TITLE
+font-family: 'Tai Heritage Pro', serif; - FOR THE PARAGRAPH
+*/
+
+/* Global styles
+---------------------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main {
+    background-color: rgb(245,245,245);
+}
+
+/* Header styles
+---------------------------------- */
+header {
+    background-color: rgb(65,105,225);
+    text-align: center;
+    font-family: 'Charis SIL', serif;
+    font-size: 1.7em;
+    color: rgb(255,250,250);
+    word-spacing: 20px;
+}
+
+/* Gameboard styles
+---------------------------------- */
+.game-board-section {
+    background-color: rgb(255,250,250);
+}
+.game-board-section > div {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+/* Player popup menu styles
+---------------------------------- */
+.player-popup-menu-section {
+    background-color: rgb(211,211,211);
+}
+
+/* Game over popup menu styles
+---------------------------------- */
+.gameover-popup-menu-section {
+    background: rgb(211,211,211);
+}
+
+/* Footer styles
+---------------------------------- */
+footer {
+    background-color: rgb(65,105,225);
+    text-align: center;
+    color: rgb(255,250,250);
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: inherit;
+}
