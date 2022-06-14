@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"defer></script>
+    <script type="module" src="index.js"defer></script>
+    <script type="module" src="dom.js"defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+    
     <title>TIC TAC TOE</title>
 </head>
 <body>
@@ -20,6 +22,7 @@
     <main>
 
         <!--*****************   GAMEBOARD   ****************-->
+        <aside>Player one</aside>
         <section class="game-board-section">
             <div></div>
             <div></div>
@@ -31,14 +34,19 @@
             <div></div>
             <div></div>
         </section>
-
+        <aside>Player two</aside>
+        
         <!--*****************   PLAYER POPUP MENU   ****************-->
         <section class="player-popup-menu-section">
             <h1>Names of the players</h1>
-            <label for="player-one"></label>
-            <input type="text" id="player-one">
-            <label for="player-two"></label>
-            <input type="text" id="player-two">
+            <div>
+                <label for="player-one">Player 1</label>
+                <input type="text" id="player-one">
+            </div>
+            <div>
+                <label for="player-two">Player 2</label>
+                <input type="text" id="player-two">
+            </div>
             <button>Start</button>
         </section>
 
