@@ -3,5 +3,5 @@
 /**
  * Start game popup control
  */
-import {greeting} from './dom-function';
+import {greeting} from './dom-function.js';
 greeting();
