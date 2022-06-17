@@ -68,16 +68,19 @@ header {
 .game-board-section > div {
     display: none;
     font-family: 'Charis SIL', serif;
+    font-size: 55px;
     border: 1px solid black;
     background-color: rgb(255,250,250);
     width: 150px;
     height: 150px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 /* Player popup menu styles
 ---------------------------------- */
 .player-popup-menu-section {
-    display: none;
+    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 500px;
     height: 300px;
